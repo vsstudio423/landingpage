@@ -1,0 +1,27 @@
+.bannerSection {
+    margin-top: 20px;
+  background-image: linear-gradient(to right, #2B5FA6 50%, #003E93) ;
+  border-radius: 10px;
+  padding: 2.5rem 2.9rem;
+  color: #fff;
+  h2{
+    font-size: 3rem;
+}
+p{
+    margin: 10px 0;
+    width: 600px;
+    text-align: justify;
+    font-size: 1.2rem;
+}
+a{
+      font-size: 1.2rem;
+    display: inline-block;
+    color: #0354c5;
+    text-decoration: none;
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bolder;
+    transition: background-color 0.3s;
+  }
+}
