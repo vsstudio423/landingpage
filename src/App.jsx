@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import reactLogo from './assets/react.svg'
 import imageBanner from './assets/image 2.png'
+import imageFounders from './assets/image_founders.png'
 import iconHamburgueMenu from './assets/menuHamburguer.svg'
 import './App.css'
 import Banner from './components/Banner/Banner'
@@ -101,10 +102,12 @@ function App() {
           <article className="article"></article>
         </section>
         <section className='section section-origen'>
-          <article className="article"></article>
+          <article className="article">
+            <img src={imageFounders} className='founders' alt="" />
+          </article>
           <article className="article">
             <h2 className='title-special'>Nuestro Origen</h2>
-            <p>Todo comenzó con un sueño, una pasión compartida y muchas ganas de hacer algo único. Stiff T. y Vestal, dos amantes del doblaje y la creatividad, decidieron que no bastaba con simplemente participar en fandubs… ¡había que crear un espacio diferente, un verdadero hogar para quienes disfrutan de dar voz a personajes y emociones! Así nació VS Studio, un servidor donde el fandub no es solo un pasatiempo, sino una experiencia inmersiva llena de aprendizaje, risas y amistad. <br /><br />
+            <p>Todo comenzó con un sueño, una pasión compartida y muchas ganas de hacer algo único. VestallDK y Stiff, dos amantes del doblaje y la creatividad, decidieron que no bastaba con simplemente participar en fandubs… ¡había que crear un espacio diferente, un verdadero hogar para quienes disfrutan de dar voz a personajes y emociones! Así nació VS Studio, un servidor donde el fandub no es solo un pasatiempo, sino una experiencia inmersiva llena de aprendizaje, risas y amistad. <br /><br />
 
               Desde nuestros inicios, hemos crecido con cada voz que se une a esta aventura. No solo somos una comunidad, somos una familia de soñadores que convierten guiones en magia sonora. Con cada proyecto, cada escena y cada interpretación, VS Studio sigue evolucionando, impulsando el talento de nuestros miembros y explorando nuevas formas de hacer doblaje. <br /><br />
 

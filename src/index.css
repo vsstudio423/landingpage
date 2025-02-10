@@ -190,6 +190,12 @@ main {
   }
 }
 
+.founders{
+  mask-image: linear-gradient(to bottom, #000 85%, transparent);
+-webkit-mask-image: linear-gradient(to bottom, #000 85%, transparent);
+
+}
+
 .title-special{
   font-family: Jost, sans-serif;
   font-weight: bold;
@@ -213,6 +219,7 @@ main {
   grid-template-columns: 50% 50%;
   p {
     font-size: 1.2rem;
+    text-align: justify;
   }
 }
 
