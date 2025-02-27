@@ -1,8 +1,38 @@
 .footer {
   background-color: #333333;
-  padding: 1.5rem 2rem;
-  h2{
-    font-size: 2rem;
+  padding: 3rem 1.5rem 1.5rem 1.5rem;
+  color: #fff;
+  h2 {
+    font-size: 2.5rem;
     color: #fff;
+  }
+}
+
+.paragraph {
+  width: 100%;
+  text-align:justify;
+  font-size: 1.2rem;
+  color: #fff;
+  margin-bottom: 1.5rem;
+}
+
+hr{
+  margin-bottom: 10px;
+}
+
+.social-media{
+  color: #fff;
+}
+
+.footer__links{
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+@media screen and (min-width: 441px) {
+  .paragraph {
+    font-size: .9rem;
+    width: 22%;
   }
 }

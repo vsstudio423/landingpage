@@ -3,6 +3,9 @@ import reactLogo from './assets/react.svg'
 import imageBanner from './assets/image 2.png'
 import imageFounders from './assets/image_founders.png'
 import iconHamburgueMenu from './assets/menuHamburguer.svg'
+import imageOshiNoKo from './assets/Oshi-no-ko-visual-4.webp'
+import imageBokuNoKokoro from './assets/Boku.no.Kokoro.no.Yabai.Yatsu.1024.3840985.webp'
+import imageOshiNoKo2 from './assets/oshiNoKo2.webp'
 import './App.css'
 import Banner from './components/Banner/Banner'
 import Footer from './components/Footer/Footer'
@@ -40,7 +43,7 @@ function App() {
         </div>
         <nav id="nav" className={menuActive ? "menu-hamburger--active" : ""}>
           <a href="/">Inicio</a>
-          <a href="/">Tienda</a>
+          <a href="/">Proyectos</a>
           <a href="/">Encuéntranos</a>
           <a href="/">Contáctanos</a>
           <a className="icon-theme" onClick={toggleTheme}>
@@ -59,7 +62,7 @@ function App() {
             <a className="link--primary" href="/">Ver Fandubs</a>
           </article>
           <article>
-            <img src="" alt="" />
+            <img src={imageOshiNoKo2} alt="" width={200} />
           </article>
         </section>
         <section className="banner">
@@ -69,22 +72,25 @@ function App() {
           <h1 className="title">Nuestros <span className="title-primary">Proyectos</span></h1>
           <article className="cards-container">
             <div className="card__project">
-              <img src="./img/image 3.png" alt="" />
-              <h2>Oshi No Ko</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac justo sit amet nunc mattis commodo.</p>
-              <a href="/">Ver más</a>
+              <img src={imageOshiNoKo} alt="" />
+              <div className="card__project--info">
+                <h2>Oshi No Ko</h2>
+                {/* <a href="/">Ver más</a> */}
+              </div>
+            </div>
+            <div className="card__project">
+              <img src={imageBokuNoKokoro} alt="" />
+              <div className="card__project--info">
+                <h2>Boku No Kokoro</h2>
+                {/* <a href="/">Ver más</a> */}
+              </div>
             </div>
             <div className="card__project">
               <img src="./img/image 3.png" alt="" />
-              <h2>Boku No Kokoro</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac justo sit amet nunc mattis commodo.</p>
-              <a href="/">Ver más</a>
-            </div>
-            <div className="card__project">
-              <img src="./img/image 3.png" alt="" />
-              <h2>100 Novias</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac justo sit amet nunc mattis commodo.</p>
-              <a href="/">Ver más</a>
+              <div className="card__project--info">
+                <h2>100 Novias</h2>
+                {/* <a href="/">Ver más</a> */}
+              </div>
             </div>
           </article>
           <article>
